@@ -110,6 +110,8 @@ select TABLE_NAME from INFORMATION_SCHEMA.TABLES
 
 /* ************************************************************** */
 
+/* TABLE client : */
+
 select * from client
 
 /* 1/_INSERTION FROM TABLE client */
@@ -130,6 +132,8 @@ delete from client where ID_CLIENT = 4;
 /* ************************************************************** */
 /* ************************************************************** */
 
+/* TABLE COMMANDE : */
+
 SELECT * from COMMANDE
 
 /* 1/_INSERTION FROM TABLE COMMANDE */
@@ -149,6 +153,8 @@ delete from COMMANDE where ID_COMMANDE = 4;
 
 /* ************************************************************** */
 /* ************************************************************** */
+
+/* TABLE PRODUIT : */
 
 select * from PRODUIT
 
